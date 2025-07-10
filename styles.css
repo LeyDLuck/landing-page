@@ -1,0 +1,143 @@
+body {
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0px 230px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    color: #f9faf8;
+    gap: 8px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-weight: 900;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.below {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0c64f1;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.fav {
+    align-self: center;
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    flex: 0 0 150px;
+    height: 250px;
+}
+
+.song {
+    border-radius: 15px;
+    border: 5px solid rgb(47, 200, 251);
+}
+
+.quote-container {
+    padding: 100px;
+    background: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.by {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.Music-container {
+    padding: 100px;
+}
+
+.box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    align-items: center;
+    color: #f9fbff;
+    padding: 30px;
+}
+
+.call {
+    color: #E5E7EB;
+    margin-top: -20px;
+    font-size: 14px;
+}
+
+.link {
+    border: 3.3px solid rgb(255, 248, 248);
+    border-radius: 8px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 20px;
+}
+
+.arctic {
+    border: solid rgb(216, 40, 190);
+}
+
